@@ -69,9 +69,10 @@ h3:hover{
 
 .barra-pesquisa {
     width: 30vw;
-    height: 25px;
-    border-radius: 15px;
+    height: 35px;
+    border-radius: 25px;
     margin: auto;
+    border: #000 solid 2px;
 }
 
 /* Conteúdo */
@@ -482,5 +483,11 @@ ul {
 .barra-role{
     width: 90%;
     border-radius: 25px;
+    border: #000 solid 2px;
+}
+.nome-perfil{
+    margin-top: 10px;
+    text-indent: 15px;
+    font-size: 1.5rem;
 }
 
