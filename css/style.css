@@ -92,6 +92,7 @@ main {
 
 }
 
+
 .ranking_lateral {
     position: absolute;
     top: 115px;
@@ -153,7 +154,7 @@ main {
 }
 .ranking_lateral-2>ul>li:hover{
     background-color: #f8c300;
-
+    cursor: pointer;
 }
 .ranking_lateral-2>ul{
    margin: auto;
@@ -333,6 +334,7 @@ p {
     border: 1px solid #6b6b6b3b;
     transition: all.5s ease-in-out;
     min-width: 82px;
+    z-index: 99;
 
 }
 
