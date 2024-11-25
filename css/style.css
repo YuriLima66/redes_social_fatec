@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
 
 
-*{
+* {
     font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
+    transition: all 0.3s ease-in-out;
 }
 
 body {
@@ -25,13 +27,15 @@ header {
     align-items: center;
     justify-content: space-between;
 }
-h3{
+
+h3 {
     color: #383838;
     font-size: 2.5rem;
     margin: 5px auto;
     cursor: pointer;
 }
-h3:hover{
+
+h3:hover {
     color: #000;
 }
 
@@ -115,16 +119,19 @@ main {
     text-decoration: none;
     color: #000;
 }
-.ranking_lateral>ul>li{
+
+.ranking_lateral>ul>li {
     background-color: #e3e9f783;
     padding: 15px;
     margin: 5px auto;
     border-radius: 5px;
 }
-.ranking_lateral>ul{
-   margin: auto;
+
+.ranking_lateral>ul {
+    margin: auto;
     list-style-type: none;
 }
+
 /*2*/
 .ranking_lateral-2 {
     position: absolute;
@@ -143,7 +150,7 @@ main {
 }
 
 
-.ranking_lateral-2>ul>li{
+.ranking_lateral-2>ul>li {
     background-color: #e3e9f731;
     display: flex;
     justify-content: space-between;
@@ -152,12 +159,14 @@ main {
     border-radius: 5px;
     padding: 5px;
 }
-.ranking_lateral-2>ul>li:hover{
+
+.ranking_lateral-2>ul>li:hover {
     background-color: #f8c300;
     cursor: pointer;
 }
-.ranking_lateral-2>ul{
-   margin: auto;
+
+.ranking_lateral-2>ul {
+    margin: auto;
     list-style-type: none;
     width: 60%;
 }
@@ -261,14 +270,15 @@ p {
     display: flex;
     flex-direction: column;
     padding: 15px;
-   ;
+    ;
     border-radius: 25px;
     width: 45vw;
 
 
 }
-.evento:hover{
-    border: 0px solid  #ebeaea98;
+
+.evento:hover {
+    border: 0px solid #ebeaea98;
     background-color: #ebeaea98;
 }
 
@@ -277,12 +287,39 @@ p {
     height: 400px;
     border: #000000 solid 2px;
     border-radius: 20px;
-}.um{
+}
+
+.um {
     background: black url(../img/banners/img-evento.jpg) center /cover no-repeat;
 }
-.dois{
+
+.dois {
     background: black url(../img/banners/bar-do-zé.jpg) center /cover no-repeat;
 
+}
+
+.tres {
+    background: black url(../img/banners/forro.jpg) center /cover no-repeat;
+
+}
+
+.quatro {
+    background: black url(../img/banners/baladinha.jpg) center /cover no-repeat;
+
+}
+
+.cinco {
+    background: black url(../img/banners/baladinha.jpg) center /cover no-repeat;
+
+}
+
+.seis {
+    background: black url(../img/banners/rock.jpg) center /cover no-repeat;
+
+}
+
+.sete {
+    background: black url(../img/banners/globo.jpg) center /cover no-repeat;
 }
 
 .titulo-evento {
@@ -370,12 +407,13 @@ ul {
     object-fit: cover;
     border-radius: 20px;
 }
-#user_avatar_aside{
+
+#user_avatar_aside {
     width: 50px;
     height: 50px;
     object-fit: cover;
     border-radius: 20px;
-    
+
 
 }
 
@@ -507,32 +545,37 @@ ul {
     flex-direction: row;
     border-radius: 8px;
     padding: 15px;
-    width: 95%;    
+    width: 95%;
     gap: 10px;
-    
+
 }
+
 .post-input-2 {
     display: flex;
     flex-direction: column;
     border-radius: 8px;
     padding: 15px;
-    width: 95%;    
+    width: 95%;
     gap: 5px;
     margin-top: 10px;
-    
+
 }
-.post-input:hover, .post-input-2:hover {
+
+.post-input:hover,
+.post-input-2:hover {
     background-color: #ebeaea98;
 }
-.perfil_1{
+
+.perfil_1 {
     display: flex;
     flex-direction: row;
-    
+
     height: 50px;
 }
-.bio{
+
+.bio {
     margin-top: 0;
-   
+
 }
 
 .actions {
@@ -548,15 +591,19 @@ ul {
     border-radius: 5px;
     cursor: pointer;
 }
-.action:hover{
+
+.action:hover {
     background-color: #f8c300;
 }
-.barra-role{
+
+.barra-role {
     width: 90%;
     border-radius: 25px;
     border: #000 solid 2px;
+    padding: 5px 15px;
 }
-.nome-perfil{
+
+.nome-perfil {
     margin-top: 10px;
     text-indent: 15px;
     font-size: 1.5rem;
@@ -564,3 +611,20 @@ ul {
     color: #000;
 }
 
+footer {
+    background-color: #f8c300;
+    color: #000;
+}
+
+.lista-footer {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.lista-footer li:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+
+}
